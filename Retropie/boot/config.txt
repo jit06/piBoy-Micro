@@ -1,0 +1,18 @@
+# See /boot/overlays/README for all available options
+
+gpu_mem=128
+disable_splash=1
+boot_delay=0
+avoid_safe_mode=1
+
+gpu_freq=500
+core_freq=500
+sdram_freq=500
+dtparam=sd_overclock=100
+
+overscan_scale=1
+overscan_top=-30
+overscan_bottom=-30
+
+dtoverlay=hifiberry-dac
+dtoverlay=i2s-mmap
